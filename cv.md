@@ -21,3 +21,14 @@
 🙋 Hi, I'm Sergey Knyazev. I work as an information security specialist. I 💖 Javascript. This programming language is beautiful. I would like to work in the IT field. 
 
 ---
+
+### __Skills__
+- HTML
+- CSS / SASS
+- JavaScript
+- ReactJS
+- Node.js (Basic)
+- SQL (Basic)
+- Git (Basic + )
+
+---
