@@ -1,2 +1,2 @@
-# rsschool-cv
-rsschool-cv
+https://SergKnyazev.github.io/rsschool-cv/cv
+
