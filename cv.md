@@ -16,3 +16,8 @@
 - Discord : __SergKnyazev#4238__
 
 ---
+
+### __About Me__
+🙋 Hi, I'm Sergey Knyazev. I work as an information security specialist. I 💖 Javascript. This programming language is beautiful. I would like to work in the IT field. 
+
+---
