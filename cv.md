@@ -56,3 +56,13 @@ function isMAC48Address(n) {
 ```
 
 ---
+
+### __Education__ 
+- __University :__ VORONEZH STATE UNIVERSITY
+  - Applied Mathematics, Informatics and Mechanics
+- __Online courses :__
+  - [HTML Academy](https://www.htmlacademy.ru)
+  - [Udemy](https://www.udemy.com/)
+  - [Youtube](https://www.youtube.com/)
+
+---
