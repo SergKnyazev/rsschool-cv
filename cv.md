@@ -66,3 +66,7 @@ function isMAC48Address(n) {
   - [Youtube](https://www.youtube.com/)
 
 ---
+
+### Languages :
+
+- English: A2
