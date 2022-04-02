@@ -6,6 +6,7 @@
   --white-color: rgb(231,236, 242);
   --gray-color: rgb(199,212, 226);
   --yellow-color: rgb(236,193, 156);
+  --blue-color: cornflowerblue;
 }
 
 * {
@@ -24,6 +25,26 @@ body {
   background-color: var(--brown-color);
 
 }
+
+/*-------- general ---------------*/
+
+.sections-title {
+  margin: 5vh 0;
+  font-size: calc(24px + 2vw);
+  font-weight: 400;
+  color: var(--white-color);
+}
+
+.section {
+  border-bottom: 4px solid var(--orange-color);
+}
+
+.links {
+  font-weight: 400;
+  color: var(--blue-color);
+}
+
+/*-------- header -----------*/
 
 .header {
   max-width: 100%;
@@ -66,10 +87,50 @@ body {
 }
 
 .main {
-  max-width: 75%;
+  max-width: 60%;
   margin: 0 auto;
 }
 
-/* h1 {
+/*----- contacts ------------------*/
+
+.contacts {
+  display: flex;
+}
+
+.contacts__user {
+  /* width: 50%; */
+}
+
+.contacts__avatar {
+  margin-top: 5vh;
+  height: auto;
+  width: 100%;
+  max-width: 307px;
+}
+
+.contacts__name {
+  margin: 5vh 0;
+  font-size: calc(20px + 2vw);
+  color: var(--yellow-color);
+}
+
+.contacts__info {
+  margin-left: 7vw;
+}
+
+.contacts__ul {
+  list-style: none;
+}
+
+.contacts__item {
+  font-size: calc(20px + 0.5vw);
   color: var(--white-color);
-} */
+  font-weight: 300;
+  margin-bottom: 2vh;
+}
+
+.contacts__value {
+  font-weight: 400;
+  color: var(--yellow-color);
+}
+
