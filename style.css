@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+:root {
+  --orange-color: rgb(235,109, 74);
+  --brown-color: rgb(84,62, 54);
+  --white-color: rgb(231,236, 242);
+  --gray-color: rgb(199,212, 226);
+  --yellow-color: rgb(236,193, 156);
+  --blue-color: cornflowerblue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  background-color: var(--brown-color);
+
+}
+
+/*-------- general ---------------*/
+
+.sections-title {
+  margin: 5vh 0;
+  font-size: calc(24px + 2vw);
+  font-weight: 400;
+  color: var(--white-color);
+}
+
+.section {
+  border-bottom: 4px solid var(--orange-color);
+}
+.section--not-border {
+  border-bottom: none;
+}
+
+.links {
+  font-weight: 400;
+  color: var(--blue-color);
+  text-decoration: none;
+}
+
+/*-------- header -----------*/
+
+.header {
+  max-width: 100%;
+  background-color: var(--orange-color);
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  margin-left: 3vw;
+  font-size: calc(20px + 5vw);
+  color: var(--white-color);
+}
+
+.header__nav {
+  padding: 2rem;
+}
+
+.header__ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.header__link {
+  font-size: 1.5rem;
+  color: var(--white-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 300ms linear;
+}
+
+.header__link:hover {
+  color:rgb(84,62, 54);
+}
+
+.main {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+/*----- contacts ------------------*/
+
+.contacts {
+  display: flex;
+}
+
+.contacts__avatar {
+  margin-top: 5vh;
+  height: auto;
+  width: 100%;
+  max-width: 307px;
+}
+
+.contacts__name {
+  margin: 5vh 0;
+  font-size: calc(20px + 2vw);
+  color: var(--yellow-color);
+}
+
+.contacts__info {
+  margin-left: 7vw;
+}
+
+.contacts__ul,
+.skills__ul,
+.education__ul,
+.languages__ul {
+  list-style: none;
+}
+
+.contacts__item,
+.skills__item,
+.education__item,
+.languages__item {
+  font-size: calc(20px + 0.5vw);
+  color: var(--white-color);
+  font-weight: 300;
+  margin-bottom: 2vh;
+}
+
+.contacts__value,
+.education__value,
+.languages__value {
+  font-weight: 400;
+  color: var(--yellow-color);
+}
+
+/*----- about ------------------*/
+
+.about__text {
+  font-size: calc(20px + 0.5vw);
+  color: var(--white-color);
+  font-weight: 300;
+  margin-bottom: 4vh;
+}
+
+/*----- skills ------------------*/
+
+.wrapper {
+  display: flex;
+  margin-bottom: 4vh;
+}
+
+.skills__value {
+  font-size: calc(20px + 0.5vw);
+  margin-bottom: 1.5vh;
+  margin-left: 5vw;
+}
+
+/*----- code ------------------*/
+
+.code__example {
+  color: var(--yellow-color);
+  font-size: calc(16px + 0.5vw);
+  margin-bottom: 4vh;
+}
+
+
+/*----- education ------------------*/
+
+.education__item--internal {
+  margin-left: 4vw;
+}
+
+.education__ul--margin {
+  margin-bottom: 4vh;
+}
+
+/*-------- footer -----------*/
+
+.footer {
+  max-width: 100%;
+  background-color: var(--orange-color);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer__rsschool {
+  display: block;
+  height: 4rem;
+  aspect-ratio: 2.6/1;
+  margin: 2rem;
+}
+
+.footer__github {
+  display: block;
+  height: 4rem;
+  margin: 2rem;
+}
+
+.footer__img {
+  height: 100%;
+  width: 100%;
+}
+
+.footer__year {
+  color: var(--white-color);
+  font-size: calc(26px + 0.5vw);
+}
+
+@media only screen and (max-width : 1024px) {
+  
+  .header__wrapper,
+  .header__ul,
+  .contacts {
+    display: inherit;
+  }
+
+  .contacts__info {
+    margin-left: 0;
+  }
+}
