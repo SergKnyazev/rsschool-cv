@@ -38,6 +38,9 @@ body {
 .section {
   border-bottom: 4px solid var(--orange-color);
 }
+.section--not-border {
+  border-bottom: none;
+}
 
 .links {
   font-weight: 400;
@@ -117,13 +120,15 @@ body {
 
 .contacts__ul,
 .skills__ul,
-.education__ul {
+.education__ul,
+.languages__ul {
   list-style: none;
 }
 
 .contacts__item,
 .skills__item,
-.education__item {
+.education__item,
+.languages__item {
   font-size: calc(20px + 0.5vw);
   color: var(--white-color);
   font-weight: 300;
@@ -131,7 +136,8 @@ body {
 }
 
 .contacts__value,
-.education__value {
+.education__value,
+.languages__value {
   font-weight: 400;
   color: var(--yellow-color);
 }
@@ -175,4 +181,38 @@ body {
 
 .education__ul--margin {
   margin-bottom: 4vh;
+}
+
+/*-------- footer -----------*/
+
+.footer {
+  max-width: 100%;
+  background-color: var(--orange-color);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer__rsschool {
+  display: block;
+  height: 4rem;
+  aspect-ratio: 2.6/1;
+  margin: 2rem;
+}
+
+.footer__github {
+  display: block;
+  height: 4rem;
+  margin: 2rem;
+}
+
+.footer__img {
+  height: 100%;
+  width: 100%;
+}
+
+.footer__year {
+  color: var(--white-color);
+  font-size: calc(26px + 0.5vw);
 }
