@@ -216,3 +216,16 @@ body {
   color: var(--white-color);
   font-size: calc(26px + 0.5vw);
 }
+
+@media only screen and (max-width : 1024px) {
+  
+  .header__wrapper,
+  .header__ul,
+  .contacts {
+    display: inherit;
+  }
+
+  .contacts__info {
+    margin-left: 0;
+  }
+}
