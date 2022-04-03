@@ -116,19 +116,22 @@ body {
 }
 
 .contacts__ul,
-.skills__ul {
+.skills__ul,
+.education__ul {
   list-style: none;
 }
 
 .contacts__item,
-.skills__item {
+.skills__item,
+.education__item {
   font-size: calc(20px + 0.5vw);
   color: var(--white-color);
   font-weight: 300;
   margin-bottom: 2vh;
 }
 
-.contacts__value {
+.contacts__value,
+.education__value {
   font-weight: 400;
   color: var(--yellow-color);
 }
@@ -158,6 +161,18 @@ body {
 /*----- code ------------------*/
 
 .code__example {
-  color: var(--gray-color);
+  color: var(--yellow-color);
   font-size: calc(16px + 0.5vw);
+  margin-bottom: 4vh;
+}
+
+
+/*----- education ------------------*/
+
+.education__item--internal {
+  margin-left: 4vw;
+}
+
+.education__ul--margin {
+  margin-bottom: 4vh;
 }
