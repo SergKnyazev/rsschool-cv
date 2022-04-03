@@ -154,3 +154,10 @@ body {
   margin-bottom: 1.5vh;
   margin-left: 5vw;
 }
+
+/*----- code ------------------*/
+
+.code__example {
+  color: var(--gray-color);
+  font-size: calc(16px + 0.5vw);
+}
