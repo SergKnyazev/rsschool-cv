@@ -115,11 +115,13 @@ body {
   margin-left: 7vw;
 }
 
-.contacts__ul {
+.contacts__ul,
+.skills__ul {
   list-style: none;
 }
 
-.contacts__item {
+.contacts__item,
+.skills__item {
   font-size: calc(20px + 0.5vw);
   color: var(--white-color);
   font-weight: 300;
@@ -140,3 +142,15 @@ body {
   margin-bottom: 4vh;
 }
 
+/*----- skills ------------------*/
+
+.wrapper {
+  display: flex;
+  margin-bottom: 4vh;
+}
+
+.skills__value {
+  font-size: calc(20px + 0.5vw);
+  margin-bottom: 1.5vh;
+  margin-left: 5vw;
+}
